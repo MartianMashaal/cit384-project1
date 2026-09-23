@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Minimal white rooftop city</title><desc id="desc">White geometric buildings under a blue sky with a red path crossing the rooftops.</desc>
+  <defs><linearGradient id="blue-sky" x2="0" y2="1"><stop stop-color="#7bc9ee"/><stop offset="1" stop-color="#e9f7ff"/></linearGradient></defs>
+  <rect width="960" height="600" fill="url(#blue-sky)"/><circle cx="755" cy="104" r="55" fill="#fff" opacity=".8"/>
+  <path d="M0 224l190-84v95l180-75v93l220-111v123l190-88v87l180-78v414H0z" fill="#f8fbfd"/>
+  <path d="M0 361h165V235h188v98h157V240h205v91h245v269H0z" fill="#fff" stroke="#d3e3ec" stroke-width="4"/>
+  <path d="M31 387h104v213H31zM195 270h112v330H195zM391 368h86v232h-86zM545 276h130v324H545zM760 366h161v234H760z" fill="#eaf1f5"/>
+  <g fill="#199bd8"><path d="M212 300h79v12h-79zM212 331h55v12h-55zM566 306h88v13h-88zM566 338h54v13h-54zM785 395h102v13H785z"/></g>
+  <path d="M35 440h250l68-66h219l62 55h291" fill="none" stroke="#ed3347" stroke-width="17" stroke-linejoin="round"/><path d="M532 355l40 19-40 19z" fill="#ed3347"/>
+  <path d="M0 520l225-42 202 35 197-44 336 40v91H0z" fill="#dceafa"/><path d="M706 156v230" stroke="#222938" stroke-width="8"/><path d="M682 163h48l-24-42z" fill="#ed3347"/>
+</svg>

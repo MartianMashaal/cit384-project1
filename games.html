@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Four cyberpunk games compared through atmosphere, movement, and world design.">
+  <title>The Games | Neon Afterimage</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="index.html"><img src="images/logo-mark.svg" alt="Neon Afterimage logo"><span>Neon Afterimage</span></a>
+      <nav class="site-nav" aria-label="Main navigation"><ul>
+        <li><a href="index.html">Home</a></li><li><a class="active" href="games.html" aria-current="page">Games</a></li><li><a href="cities.html">City Design</a></li><li><a href="route.html">Play Route</a></li>
+      </ul></nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero"><div class="section-shell"><div><p class="eyebrow">The games</p><h1>Four worlds, four <span>rhythms</span></h1></div><p>I chose these games because each one answers the same question differently: how should it feel to move through a future city?</p></div></section>
+
+    <section class="section"><div class="section-shell game-list">
+      <article class="game-card" id="cyberpunk">
+        <figure><img src="images/neon-city.svg" alt="Abstract crowded skyline representing Night City"></figure>
+        <div class="game-card-content">
+          <p class="game-kicker">
+            <!-- MDN ELEMENT 1: The <time> element represents a specific date. I use it on this page for each game's release year. -->
+            <!-- MDN ATTRIBUTE 1: datetime gives the visible release year a machine-readable value. -->
+            <time datetime="2020">2020</time><span>Night City</span>
+          </p>
+          <h2><!-- MDN ELEMENT 2: The <data> element connects a visible game title to a machine-readable identifier used in this catalog. --><data value="cp2077">Cyberpunk 2077</data></h2>
+          <p>This is the world I know best. After roughly 500 hours, the appeal is less about checking icons off the map and more about recognizing places: the wet streets of Kabuki, the open desert outside the city, and the giant walls of downtown. Driving slowly makes the scale easy to notice.</p>
+          <!-- MDN ELEMENT 3: The <meter> element displays a value within a known range. I use it to compare atmosphere and movement scores. -->
+          <div class="meter-row"><label for="cyberpunk-atmosphere">Atmosphere</label><meter id="cyberpunk-atmosphere" min="0" max="10" value="10">10 out of 10</meter><span>10/10</span></div>
+          <div class="meter-row"><label for="cyberpunk-movement">Movement</label><meter id="cyberpunk-movement" min="0" max="10" value="7">7 out of 10</meter><span>7/10</span></div>
+        </div>
+      </article>
+
+      <article class="game-card" id="mirrors-edge">
+        <figure><img src="images/white-city.svg" alt="White and blue rooftops with a red route"></figure>
+        <div class="game-card-content">
+          <p class="game-kicker"><time datetime="2008">2008</time><span>Glass</span></p>
+          <h2><data value="mirrors-edge">Mirror's Edge</data></h2>
+          <p>Mirror's Edge removes most of the visual clutter found in other city games. White surfaces create breathing room while red objects point out a possible route. The city feels strict and controlled, but Faith's movement lets the player bend its rules.</p>
+          <div class="meter-row"><label for="mirror-atmosphere">Atmosphere</label><meter id="mirror-atmosphere" min="0" max="10" value="9">9 out of 10</meter><span>9/10</span></div>
+          <div class="meter-row"><label for="mirror-movement">Movement</label><meter id="mirror-movement" min="0" max="10" value="10">10 out of 10</meter><span>10/10</span></div>
+        </div>
+      </article>
+
+      <article class="game-card" id="remember-me">
+        <figure><img src="images/memory-city.svg" alt="Layered orange and violet city representing Neo-Paris"></figure>
+        <div class="game-card-content">
+          <p class="game-kicker"><time datetime="2013">2013</time><span>Neo-Paris</span></p>
+          <h2><data value="remember-me">Remember Me</data></h2>
+          <p>Remember Me is rough around the edges, but its setting has stayed with me. Old Parisian buildings sit underneath holograms and memory ads. That mix makes the future feel attached to a real past instead of appearing from nowhere.</p>
+          <div class="meter-row"><label for="remember-atmosphere">Atmosphere</label><meter id="remember-atmosphere" min="0" max="10" value="9">9 out of 10</meter><span>9/10</span></div>
+          <div class="meter-row"><label for="remember-movement">Movement</label><meter id="remember-movement" min="0" max="10" value="6">6 out of 10</meter><span>6/10</span></div>
+        </div>
+      </article>
+
+      <article class="game-card" id="ghostrunner">
+        <figure><img src="images/neon-runner.svg" alt="Runner silhouette inside a tall neon tower"></figure>
+        <div class="game-card-content">
+          <p class="game-kicker"><time datetime="2020">2020</time><span>Dharma Tower</span></p>
+          <h2><data value="ghostrunner">Ghostrunner</data></h2>
+          <p>Ghostrunner turns every room into a fast puzzle. The city is not a place to wander; it is a sequence of walls, rails, enemies, and gaps that must be read in a few seconds. Repeating a section until it flows perfectly is the point.</p>
+          <div class="meter-row"><label for="ghost-atmosphere">Atmosphere</label><meter id="ghost-atmosphere" min="0" max="10" value="8">8 out of 10</meter><span>8/10</span></div>
+          <div class="meter-row"><label for="ghost-movement">Movement</label><meter id="ghost-movement" min="0" max="10" value="10">10 out of 10</meter><span>10/10</span></div>
+        </div>
+      </article>
+    </div></section>
+
+    <section class="section dark"><div class="section-shell">
+      <div class="section-heading"><h2>Quick comparison</h2><p>These are personal impressions, not review scores. They describe what stands out to me most in each game.</p></div>
+      <div class="table-wrap"><table class="comparison-table">
+        <caption>How the four games build their identity</caption>
+        <thead><tr><th scope="col">Game</th><th scope="col">Strongest quality</th><th scope="col">Main movement</th><th scope="col">Visual signal</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Cyberpunk 2077</th><td>Neighborhood detail</td><td>Driving and walking</td><td>Neon signs and density</td></tr>
+          <tr><th scope="row">Mirror's Edge</th><td>Route readability</td><td>First-person parkour</td><td>Red against white</td></tr>
+          <tr><th scope="row">Remember Me</th><td>Old and new layers</td><td>Climbing and combat</td><td>Memory projections</td></tr>
+          <tr><th scope="row">Ghostrunner</th><td>Speed and precision</td><td>Wall-running and dashing</td><td>Cyan and magenta paths</td></tr>
+        </tbody>
+      </table></div>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-shell"><p>Created by Mashaal Jan for CIT 384 Project 1.</p><p><a href="https://github.com/MartianMashaal/cit384-project1">View the GitHub repository</a></p></div></footer>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal ranking and weekend play route through four cyberpunk games.">
+  <title>Play Route | Neon Afterimage</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header"><div class="nav-shell">
+    <a class="brand" href="index.html"><img src="images/logo-mark.svg" alt="Neon Afterimage logo"><span>Neon Afterimage</span></a>
+    <nav class="site-nav" aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="games.html">Games</a></li><li><a href="cities.html">City Design</a></li><li><a class="active" href="route.html" aria-current="page">Play Route</a></li></ul></nav>
+  </div></header>
+
+  <main id="main-content">
+    <section class="page-hero"><div class="section-shell"><div><p class="eyebrow">Play route</p><h1>From good to my <span>favorite</span></h1></div><p>All four games are worth playing for different reasons. This is my current ranking, followed by the route I would give someone trying them for the first time.</p></div></section>
+
+    <section class="section"><div class="section-shell">
+      <div class="section-heading"><h2>My ranking</h2><p>The order reflects which complete experience I would most want to revisit today.</p></div>
+      <!-- MDN ATTRIBUTE 2: reversed makes this ordered list count down from four to one, matching a ranking that ends at the top choice. -->
+      <ol class="ranking" reversed>
+        <li><div><h2>Ghostrunner</h2><p>The movement is excellent, but its demanding pace makes it a game I play in shorter bursts.</p></div></li>
+        <li><div><h2>Remember Me</h2><p>Some systems feel dated, yet Neo-Paris is distinctive enough that I still think about it years later.</p></div></li>
+        <li><div><h2>Mirror's Edge</h2><p>It is focused, visually confident, and still one of the clearest examples of movement-led level design.</p></div></li>
+        <li><div><h2>Cyberpunk 2077</h2><p>Night City gives me the most freedom to wander, notice details, and make a different story each time.</p></div></li>
+      </ol>
+    </div></section>
+
+    <section class="section dark"><div class="section-shell">
+      <div class="section-heading"><h2>A weekend route</h2><p>Three stops show three different approaches without asking someone to finish four full games.</p></div>
+      <div class="route-grid">
+        <article class="route-card"><h3>Start with clarity</h3><!-- MDN ATTRIBUTE 3: loading="lazy" lets the browser delay this below-the-fold image until it is close to the viewport. --><img src="images/white-city.svg" loading="lazy" alt="Minimal white city with a red movement route"><p>Play the opening chapters of Mirror's Edge and pay attention to how red objects teach the route.</p></article>
+        <article class="route-card"><h3>Switch to precision</h3><img src="images/neon-runner.svg" loading="lazy" alt="Vertical neon path through a dark tower"><p>Try an early Ghostrunner level and notice how movement becomes faster while the route stays readable.</p></article>
+        <article class="route-card"><h3>End by wandering</h3><img src="images/neon-city.svg" loading="lazy" alt="Dense neon city seen from above"><p>Drive across Night City without fast travel. Moving at street level reveals how different its districts feel.</p></article>
+      </div>
+    </div></section>
+
+    <section class="section"><div class="section-shell">
+      <div class="section-heading"><h2>MDN exploration</h2><p>These are the three elements and three attributes I explored beyond the material covered in class.</p></div>
+      <div class="build-note"><p>The first use of each item also has a source-code comment explaining how it works in this site.</p></div>
+      <div class="table-wrap"><table class="mdn-table">
+        <caption>Elements and attributes used for this project</caption>
+        <thead><tr><th scope="col">Type</th><th scope="col">Item</th><th scope="col">Where and why I used it</th></tr></thead>
+        <tbody>
+          <tr><td>Element</td><td><code>&lt;time&gt;</code></td><td>Release years on the Games page</td></tr>
+          <tr><td>Element</td><td><code>&lt;meter&gt;</code></td><td>Atmosphere and movement comparisons on the Games page</td></tr>
+          <tr><td>Element</td><td><code>&lt;data&gt;</code></td><td>Game titles connected to short catalog values on the Games page</td></tr>
+          <tr><td>Attribute</td><td><code>datetime</code></td><td>Machine-readable dates inside the <code>&lt;time&gt;</code> elements</td></tr>
+          <tr><td>Attribute</td><td><code>reversed</code></td><td>The countdown order for the ranking on this page</td></tr>
+          <tr><td>Attribute</td><td><code>loading</code></td><td>Lazy loading for the route images farther down this page</td></tr>
+        </tbody>
+      </table></div>
+      <div class="button-row"><a class="button" href="games.html">Compare the games</a><a class="button secondary" href="cities.html">See the design notes</a></div>
+    </div></section>
+
+    <section class="section dark"><div class="section-shell"><div class="section-heading"><h2>Next on my list</h2><p>Deus Ex is the next series I would revisit for this kind of comparison. Its smaller spaces put more emphasis on player choice, hidden routes, and multiple ways into the same building.</p></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-shell"><p>Created by Mashaal Jan for CIT 384 Project 1.</p><p><a href="https://github.com/MartianMashaal/cit384-project1">View the GitHub repository</a></p></div></footer>
+</body>
+</html>

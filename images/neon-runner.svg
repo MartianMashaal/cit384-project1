@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Runner in a neon tower</title><desc id="desc">A small runner follows cyan and magenta paths through a tall dark structure.</desc>
+  <defs><linearGradient id="tower" x2="0" y2="1"><stop stop-color="#25315d"/><stop offset="1" stop-color="#0e1320"/></linearGradient></defs>
+  <rect width="960" height="600" fill="url(#tower)"/>
+  <g fill="#161d33" stroke="#39456f" stroke-width="3"><path d="M0 86h212v514H0zM254 0h172v600H254zM474 62h205v538H474zM729 0h231v600H729z"/></g>
+  <g fill="#8934d2" opacity=".45"><path d="M31 119h151v69H31zM287 54h107v89H287zM506 101h141v63H506zM761 48h165v103H761zM31 277h151v56H31zM287 236h107v72H287zM506 254h141v76H506zM761 243h165v61H761z"/></g>
+  <path d="M45 500h250V392h213V280h212V166h196" fill="none" stroke="#24e2d0" stroke-width="12"/><path d="M45 526h277V420h213V309h212V195h169" fill="none" stroke="#f23898" stroke-width="5"/>
+  <g fill="#24e2d0"><path d="M279 375l28 17-28 17zM492 263l28 17-28 17zM704 149l28 17-28 17z"/></g>
+  <g transform="translate(579 238)" fill="#f4f7ff"><circle r="13"/><path d="M-8 14h17l14 37-14 5-8-22-17 23-13-8 23-32z"/><path d="M18 44l34 18-8 14-40-18zM-18 47l-25 31-12-10 27-37z"/></g>
+  <path d="M0 565h960" stroke="#f23898" stroke-width="4"/><path d="M105 0v600M368 0v600M590 0v600M844 0v600" stroke="#24e2d0" stroke-width="2" opacity=".22"/>
+</svg>

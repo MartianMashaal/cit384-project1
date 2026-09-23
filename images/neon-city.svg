@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract neon city</title><desc id="desc">A dense violet skyline with cyan signs, red windows, and overlapping elevated roads.</desc>
+  <defs><linearGradient id="sky" x2="1" y2="1"><stop stop-color="#12131d"/><stop offset="1" stop-color="#28204b"/></linearGradient><linearGradient id="road"><stop stop-color="#ff4d5a"/><stop offset="1" stop-color="#7457ff"/></linearGradient></defs>
+  <rect width="960" height="600" fill="url(#sky)"/><circle cx="760" cy="115" r="72" fill="#7457ff" opacity=".18"/>
+  <g fill="#1b1d2c" stroke="#3a3658" stroke-width="3"><path d="M18 500V205h132v295z"/><path d="M118 500V106h146v394z"/><path d="M235 500V246h110v254z"/><path d="M326 500V72h180v428z"/><path d="M480 500V175h120v325z"/><path d="M570 500V115h176v385z"/><path d="M715 500V225h105v275z"/><path d="M798 500V88h143v412z"/></g>
+  <g fill="#25c7e8"><path d="M145 136h82v12h-82zM145 165h50v8h-50zM355 105h122v16H355zM604 151h108v13H604zM826 124h82v12h-82z"/></g>
+  <g fill="#ff4d5a"><path d="M43 245h68v8H43zM43 275h92v8H43zM266 287h50v10h-50zM378 158h85v10h-85zM514 216h56v9h-56zM624 202h86v10h-86zM846 178h60v9h-60z"/></g>
+  <g fill="#f5c35b"><path d="M159 218h10v22h-10zM190 218h10v22h-10zM366 236h12v30h-12zM404 236h12v30h-12zM442 236h12v30h-12zM618 282h11v28h-11zM655 282h11v28h-11zM692 282h11v28h-11z"/></g>
+  <path d="M-45 466C190 382 347 533 543 429S806 326 1007 388" fill="none" stroke="#080912" stroke-width="54"/><path d="M-45 466C190 382 347 533 543 429S806 326 1007 388" fill="none" stroke="url(#road)" stroke-width="7"/>
+  <path d="M0 500h960v100H0z" fill="#0c0d15"/><path d="M0 500h960" stroke="#ff4d5a" stroke-width="4"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Layered memory city</title><desc id="desc">Warm old buildings are layered with violet technology and glowing rings.</desc>
+  <defs><linearGradient id="memory-sky" x2="1" y2="1"><stop stop-color="#293d55"/><stop offset="1" stop-color="#2a2145"/></linearGradient><radialGradient id="glow"><stop stop-color="#f4bc76" stop-opacity=".8"/><stop offset="1" stop-color="#c96c45" stop-opacity="0"/></radialGradient></defs>
+  <rect width="960" height="600" fill="url(#memory-sky)"/><circle cx="733" cy="170" r="150" fill="url(#glow)"/>
+  <g fill="#59425b" stroke="#805a63" stroke-width="3"><path d="M0 600V267h163v333z"/><path d="M126 600V201h201v399z"/><path d="M296 600V294h177v306z"/><path d="M445 600V166h213v434z"/><path d="M621 600V244h159v356z"/><path d="M753 600V189h207v411z"/></g>
+  <g fill="#f4bc76"><path d="M29 310h25v40H29zM75 310h25v40H75zM170 248h31v49h-31zM225 248h31v49h-31zM341 337h27v43h-27zM393 337h27v43h-27zM493 212h34v53h-34zM554 212h34v53h-34zM662 289h28v46h-28zM708 289h28v46h-28z"/></g>
+  <g fill="none" stroke="#c96c45"><circle cx="610" cy="338" r="185" stroke-width="8"/><circle cx="610" cy="338" r="137" stroke-width="3"/><circle cx="610" cy="338" r="92" stroke-width="10"/></g>
+  <path d="M610 124v428M396 338h428" stroke="#f4bc76" stroke-width="2"/><path d="M0 493c154-55 315 41 468-6s276-96 492-14v127H0z" fill="#211b35"/><path d="M0 493c154-55 315 41 468-6s276-96 492-14" fill="none" stroke="#c96c45" stroke-width="5"/>
+</svg>
