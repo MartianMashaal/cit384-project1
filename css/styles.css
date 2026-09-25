@@ -169,7 +169,6 @@ data { font: inherit; }
 .world-card h3 { margin: 0; font-size: 1.3rem; }
 .world-card p { margin: .4rem 0 0; color: #bfc5d3; font-size: .94rem; }
 .world-card a { color: var(--cyan); text-underline-offset: .2em; }
-.pull-quote { margin: 0; padding: 4rem 8%; color: white; background: var(--violet); text-align: center; font-size: clamp(1.7rem, 4vw, 3rem); font-weight: 800; line-height: 1.15; }
 
 .page-hero { padding: 5.5rem 0 4.5rem; }
 .page-hero .section-shell { display: grid; grid-template-columns: 1fr .75fr; gap: 4rem; align-items: end; }
@@ -223,8 +222,6 @@ meter::-webkit-meter-optimum-value { background: linear-gradient(90deg, var(--vi
 .route-card { counter-increment: route-step; }
 .route-card::before { content: "0" counter(route-step); display: block; margin-bottom: 1rem; color: var(--violet); font-weight: 900; }
 .route-card img { height: auto; margin: 1rem 0; border: 1px solid var(--line); }
-.build-note { padding: 1.5rem; border-left: 5px solid var(--cyan); background: #eefbfe; }
-.build-note p { margin: 0; }
 code { padding: .1rem .28rem; background: #e8eaf1; font-family: "Courier New", monospace; font-size: .92em; }
 
 .site-footer { padding: 2.5rem 0; color: #bfc5d3; background: var(--night); border-top: 1px solid #2b2d3d; }
