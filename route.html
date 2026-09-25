@@ -19,10 +19,9 @@
 
     <section class="section"><div class="section-shell">
       <div class="section-heading"><h2>My ranking</h2><p>The order reflects which complete experience I would most want to revisit today.</p></div>
-      <!-- MDN ATTRIBUTE 2: reversed makes this ordered list count down from four to one, matching a ranking that ends at the top choice. -->
       <ol class="ranking" reversed>
-        <li><div><h2>Ghostrunner</h2><p>The movement is excellent, but its demanding pace makes it a game I play in shorter bursts.</p></div></li>
-        <li><div><h2>Remember Me</h2><p>Some systems feel dated, yet Neo-Paris is distinctive enough that I still think about it years later.</p></div></li>
+        <li><div><h2>Ghostrunner</h2><p>The movement is the main attraction, with a demanding pace built around short attempts and quick retries.</p></div></li>
+        <li><div><h2>Remember Me</h2><p>Neo-Paris stands out for its mix of older architecture and technology built around memories.</p></div></li>
         <li><div><h2>Mirror's Edge</h2><p>It is focused, visually confident, and still one of the clearest examples of movement-led level design.</p></div></li>
         <li><div><h2>Cyberpunk 2077</h2><p>Night City gives me the most freedom to wander, notice details, and make a different story each time.</p></div></li>
       </ol>
@@ -31,9 +30,12 @@
     <section class="section dark"><div class="section-shell">
       <div class="section-heading"><h2>A weekend route</h2><p>Three stops show three different approaches without asking someone to finish four full games.</p></div>
       <div class="route-grid">
-        <article class="route-card"><h3>Start with clarity</h3><!-- MDN ATTRIBUTE 3: loading="lazy" lets the browser delay this below-the-fold image until it is close to the viewport. --><img src="images/white-city.svg" loading="lazy" alt="Minimal white city with a red movement route"><p>Play the opening chapters of Mirror's Edge and pay attention to how red objects teach the route.</p></article>
-        <article class="route-card"><h3>Switch to precision</h3><img src="images/neon-runner.svg" loading="lazy" alt="Vertical neon path through a dark tower"><p>Try an early Ghostrunner level and notice how movement becomes faster while the route stays readable.</p></article>
-        <article class="route-card"><h3>End by wandering</h3><img src="images/neon-city.svg" loading="lazy" alt="Dense neon city seen from above"><p>Drive across Night City without fast travel. Moving at street level reveals how different its districts feel.</p></article>
+        <article class="route-card"><h3>Start with clarity</h3>
+          <!-- MDN ATTRIBUTE 1: loading="lazy" allows this below-the-fold image to load when it approaches the viewport. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img#loading -->
+          <!-- MDN ATTRIBUTE 2: decoding="async" hints that the browser can display other content without waiting for this image to decode. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img#decoding -->
+          <img src="images/white-city.svg" loading="lazy" decoding="async" width="960" height="600" alt="Minimal white city with a red movement route"><p>Play the opening chapters of Mirror's Edge and pay attention to how red objects teach the route.</p></article>
+        <article class="route-card"><h3>Switch to precision</h3><img src="images/neon-runner.svg" loading="lazy" decoding="async" width="960" height="600" alt="Vertical neon path through a dark tower"><p>Try an early Ghostrunner level and notice how movement becomes faster while the route stays readable.</p></article>
+        <article class="route-card"><h3>End by wandering</h3><img src="images/neon-city.svg" loading="lazy" decoding="async" width="960" height="600" alt="Dense neon city seen from above"><p>Drive across Night City without fast travel. Moving at street level reveals how different its districts feel.</p></article>
       </div>
     </div></section>
 
@@ -44,12 +46,13 @@
         <caption>Elements and attributes used for this project</caption>
         <thead><tr><th scope="col">Type</th><th scope="col">Item</th><th scope="col">Where and why I used it</th></tr></thead>
         <tbody>
-          <tr><td>Element</td><td><code>&lt;time&gt;</code></td><td>Release years on the Games page</td></tr>
-          <tr><td>Element</td><td><code>&lt;meter&gt;</code></td><td>Atmosphere and movement comparisons on the Games page</td></tr>
-          <tr><td>Element</td><td><code>&lt;data&gt;</code></td><td>Game titles connected to short catalog values on the Games page</td></tr>
-          <tr><td>Attribute</td><td><code>datetime</code></td><td>Machine-readable dates inside the <code>&lt;time&gt;</code> elements</td></tr>
-          <tr><td>Attribute</td><td><code>reversed</code></td><td>The countdown order for the ranking on this page</td></tr>
-          <tr><td>Attribute</td><td><code>loading</code></td><td>Lazy loading for the route images farther down this page</td></tr>
+          <!-- MDN ATTRIBUTE 3: referrerpolicy="no-referrer" keeps this page's address out of the Referer header when a visitor follows an external documentation link. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a#referrerpolicy -->
+          <tr><td>Element</td><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dfn" referrerpolicy="no-referrer"><code>&lt;dfn&gt;</code></a></td><td>Marks terms defined in the City Design vocabulary section</td></tr>
+          <tr><td>Element</td><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/ruby" referrerpolicy="no-referrer"><code>&lt;ruby&gt;</code></a></td><td>Groups a Japanese sign character with its pronunciation on City Design</td></tr>
+          <tr><td>Element</td><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/rt" referrerpolicy="no-referrer"><code>&lt;rt&gt;</code></a></td><td>Provides the pronunciation text inside that ruby annotation</td></tr>
+          <tr><td>Attribute</td><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img#loading" referrerpolicy="no-referrer"><code>loading</code></a></td><td>Defers loading the three below-the-fold route images</td></tr>
+          <tr><td>Attribute</td><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img#decoding" referrerpolicy="no-referrer"><code>decoding</code></a></td><td>Requests asynchronous decoding for those route images</td></tr>
+          <tr><td>Attribute</td><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a#referrerpolicy" referrerpolicy="no-referrer"><code>referrerpolicy</code></a></td><td>Avoids sending this page's address when following these MDN links</td></tr>
         </tbody>
       </table></div>
       <div class="button-row"><a class="button" href="games.html">Compare the games</a><a class="button secondary" href="cities.html">See the design notes</a></div>

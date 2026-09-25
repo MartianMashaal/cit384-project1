@@ -222,7 +222,7 @@ meter::-webkit-meter-optimum-value { background: linear-gradient(90deg, var(--vi
 .route-grid { counter-reset: route-step; }
 .route-card { counter-increment: route-step; }
 .route-card::before { content: "0" counter(route-step); display: block; margin-bottom: 1rem; color: var(--violet); font-weight: 900; }
-.route-card img { margin: 1rem 0; border: 1px solid var(--line); }
+.route-card img { height: auto; margin: 1rem 0; border: 1px solid var(--line); }
 .build-note { padding: 1.5rem; border-left: 5px solid var(--cyan); background: #eefbfe; }
 .build-note p { margin: 0; }
 code { padding: .1rem .28rem; background: #e8eaf1; font-family: "Courier New", monospace; font-size: .92em; }
